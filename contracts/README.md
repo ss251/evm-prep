@@ -10,4 +10,10 @@ npx hardhat test
 REPORT_GAS=true npx hardhat test
 npx hardhat node
 npx hardhat ignition deploy ./ignition/modules/Lock.ts
+
+This repo is used to deploy and test contracts from [Solidity by Example](https://solidity-by-example.org/).
+
+All contracts are deployed to Arbitrum Sepolia.
+
+EtherWallet: 0x9DC673b728eD40B804302D444B45c5e1402e3F9a
 ```

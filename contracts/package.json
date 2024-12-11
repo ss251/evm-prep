@@ -2,5 +2,12 @@
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^5.0.0",
     "hardhat": "^2.22.17"
+  },
+  "scripts": {
+    "deployEtherWallet:arbitrumSepolia": "npx hardhat run scripts/deployEtherWallet.ts --network arbitrumSepolia",
+    "testEtherWallet": "npx hardhat test test/EtherWallet.test.ts"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7"
   }
 }
