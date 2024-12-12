@@ -5,6 +5,7 @@
   },
   "scripts": {
     "deployEtherWallet:arbitrumSepolia": "npx hardhat run scripts/deployEtherWallet.ts --network arbitrumSepolia",
+    "deployEtherWallet:sepolia":  "npx hardhat run scripts/deployEtherWallet.ts --network sepolia",
     "testEtherWallet": "npx hardhat test test/EtherWallet.test.ts"
   },
   "dependencies": {
