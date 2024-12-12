@@ -2,7 +2,7 @@ This repo is created for the practice of writing smart contracts and interacting
 
 Contracts taken from [Solidity by Example](https://solidity-by-example.org/)
 
-Smart Contract Deployment and Testing: Hardhat
-Frontend: Next.js, Shadcn
-Smart Contract Interaction: Ethers.js, Wagmi, Viem
-Wallet: Reown (Previously WalletConnect)
+- Smart Contract Deployment and Testing: Hardhat
+- Frontend: Next.js, Shadcn
+- Smart Contract Interaction: Ethers.js, Wagmi, Viem
+- Wallet: Reown (Previously WalletConnect)
