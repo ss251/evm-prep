@@ -5,7 +5,16 @@ import dotenv from "dotenv";
 dotenv.config();
 
 const config: HardhatUserConfig = {
-  solidity: "0.8.28",
+  solidity: {
+    version: "0.8.28",  // Changed to compiler settings object
+    settings: {
+      evmVersion: "cancun",
+      optimizer: {
+        enabled: true,
+        runs: 200
+      }
+    }
+  },
   networks: {
     arbitrumSepolia: {
       url: process.env.ARBITRUM_SEPOLIA_RPC || "",
