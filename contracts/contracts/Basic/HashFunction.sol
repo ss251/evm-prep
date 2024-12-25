@@ -1,6 +1,16 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.26;
 
+/*
+keccak256 computes the Keccak-256 hash of the input.
+
+Some use cases are:
+
+- Creating a deterministic unique ID from an input
+- Commit-Reveal scheme
+- Compact cryptographic signature (by signing the hash instead of a larger input)
+*/
+
 contract HashFunction {
     function hash(string memory _text, uint256 _num, address _addr)
         public
